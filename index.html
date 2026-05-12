@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
+        <title>William Wu | Portfolio</title>
         <!--tutorial link: https://www.youtube.com/watch?v=ldwlOzRvYOU-->
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="mediaqueries.css" />
@@ -16,7 +16,7 @@
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -32,7 +32,7 @@
                 <div class="menu-links">
                     <li><a href="#about" onclick="toggleMenu()">About</a></li>
                     <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                    <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                     <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
                 </div>
             </div>
@@ -44,25 +44,23 @@
             <div class ="section__text">
                 <p class="section__text__p1">Hello, I'm</p>
                 <h1 class="title">William Wu</h1> 
-                <p class="section__text__p2">Frontend Developer</p> <!--replace title-->
+                <p class="section__text__p2">Computer Science @ UT Austin</p>
                 <div class="btn-container">
-                    <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
-                    <button class="btn btn-color-1" onclick="loaction.href='./#contact'">Contact Info</button>
+                    <button class="btn btn-color-2" onclick="window.open('./assets/william-wu-resume.pdf')">Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
                 </div>
                 <div id="socials-container"> 
-                    <!--replace linkedin url-->
                     <img 
                         src="./assets/linkedin.png" 
                         alt="My LinkedIn Profile" 
                         class="icon" 
-                        onclick="location.href='https://linkedin.com/'" 
+                        onclick="location.href='https://www.linkedin.com/in/william-wu12'" 
                     /> 
-                    <!--replace github url-->
                     <img 
                         src="./assets/github.png"
                         alt="My Github Profile"
                         class="icon"
-                        onclick="location.href='https://github.com/'" 
+                        onclick="location.href='https://github.com/wuwilliam12'" 
                     />
                 </div>
             </div>
@@ -88,7 +86,7 @@
                                 class="icon"
                             />
                             <h3>Experience</h3>
-                            <p>2+ years <br />Frontend Development</p>
+                            <p>Technical Lead &amp; Instructor <br /> STEM &amp; software curricula</p>
                         </div>
                         <div class="details-container">
                             <img 
@@ -97,18 +95,20 @@
                                 class="icon"
                             />
                             <h3>Education</h3>
-                            <p>B.Sc. Bachelors Degree <br /> UT Austin Computer Science</p>
+                            <p>B.S. Computer Science <br /> UT Austin — May 2027 (GPA 3.65)</p>
                         </div>
                     </div>
                     <div class="text-container">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Alias, omnis error recusandae, minima mollitia nisi, maiores 
-                            ad facere consequuntur sunt voluptates nam. Magnam eum aliquam, 
-                            doloremque enim, tempora exercitationem illo quisquam maxime 
-                            impedit praesentium repellendus a magni molestiae veniam 
-                            obcaecati omnis cumque corporis incidunt quis perspiciatis 
-                            nihil laboriosam nam. Molestiae.
+                            I am a Computer Science student at The University of Texas at Austin with interests
+                            across full-stack web development, systems software, and robotics. As Technical Lead
+                            at iCode Memorial, I adapt and teach long-form courses in Python, web development,
+                            Java, VEX robotics, and more. I have co-built <strong>FitInNature</strong>, a data-driven
+                            web app for exploring national parks; led a team on an omnidirectional transport robot;
+                            and extended the <strong>Pintos</strong> educational OS with the shell, threads, virtual
+                            memory, file systems, and synchronization primitives. Coursework includes algorithms,
+                            data structures, computer architecture, operating systems, software engineering, and
+                            modern web applications.
                         </p>
                     </div>
                 </div>
@@ -124,12 +124,26 @@
             <p class="section__text__p1">Explore My</p>
             <h1 class="title">Experience</h1>
             <div class="experience-details-container">
+                <div class="details-container experience-work-summary">
+                    <h2 class="experience-sub-title">Professional experience</h2>
+                    <p><strong>iCode Memorial</strong> — Technical Lead</p>
+                    <p class="job-meta">January 2023 – Present</p>
+                    <ul>
+                        <li>Adapted and taught 9-month courses (~10 students) in Python, web development (JavaScript, HTML/CSS, databases, graphic design), Scratch, VEX IQ robotics, and 3D printing.</li>
+                        <li>Guided students through websites, minigames, programs, and maze-solving robots; streamlined shared learning resources for other instructors.</li>
+                        <li>Developed advanced curricula in Java (app development) and VEX robotics for advanced and adult learners.</li>
+                    </ul>
+                    <p><strong>Self-Establish Community Robotics Camps</strong> — Organizer &amp; Instructor</p>
+                    <p class="job-meta">June 2022</p>
+                    <ul>
+                        <li>Organized two free 4-day summer robotics camps for children via community centers.</li>
+                        <li>Taught 1st–8th graders coding, robotics, and engineering using VEX IQ.</li>
+                    </ul>
+                </div>
                 <div class="about-containers">
-                    <!--Frontend Experience-->
                     <div class="details-container">
-                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <h2 class="experience-sub-title">Languages &amp; frameworks</h2>
                         <div class="article-container">
-                            <!--CHANGE THE EXPERIENCE/SKILLS-->
                             <article>
                                 <img 
                                     src="./assets/checkmark.png" 
@@ -137,7 +151,7 @@
                                     class="icon"
                                 />
                                 <div>
-                                    <h3>HTML</h3>
+                                    <h3>Java</h3>
                                     <p>Experienced</p>
                                 </div>
                             </article>
@@ -148,7 +162,7 @@
                                     class="icon"
                                 />
                                 <div>
-                                    <h3>CSS</h3>
+                                    <h3>Python</h3>
                                     <p>Experienced</p>
                                 </div>
                             </article>
@@ -159,8 +173,8 @@
                                     class="icon"
                                 />
                                 <div>
-                                    <h3>SASS</h3>
-                                    <p>Intermediate</p>
+                                    <h3>C / C++</h3>
+                                    <p>Experienced</p>
                                 </div>
                             </article>
                             <article>
@@ -170,8 +184,8 @@
                                     class="icon"
                                 />
                                 <div>
-                                    <h3>Javascript</h3>
-                                    <p>Basic</p>
+                                    <h3>JavaScript</h3>
+                                    <p>Experienced</p>
                                 </div>
                             </article>
                             <article>
@@ -181,8 +195,8 @@
                                     class="icon"
                                 />
                                 <div>
-                                    <h3>TypeScript</h3>
-                                    <p>Basic</p>
+                                    <h3>HTML / CSS</h3>
+                                    <p>Experienced</p>
                                 </div>
                             </article>
                             <article>
@@ -192,17 +206,15 @@
                                     class="icon"
                                 />
                                 <div>
-                                    <h3>Material UI</h3>
-                                    <p>Intermediate</p>
+                                    <h3>React</h3>
+                                    <p>Experienced</p>
                                 </div>
                             </article>
                         </div>
                     </div>
-                    <!--Backend Experience-->
                     <div class="details-container">
-                        <h2 class="experience-sub-title">Backend Development</h2>
+                        <h2 class="experience-sub-title">Tools &amp; systems</h2>
                         <div class="article-container">
-                            <!--CHANGE THE EXPERIENCE/SKILLS-->
                             <article>
                                 <img 
                                     src="./assets/checkmark.png" 
@@ -210,7 +222,7 @@
                                     class="icon"
                                 />
                                 <div>
-                                    <h3>PostgreSQL</h3>
+                                    <h3>SQL</h3>
                                     <p>Experienced</p>
                                 </div>
                             </article>
@@ -221,18 +233,7 @@
                                     class="icon"
                                 />
                                 <div>
-                                    <h3>Node JS</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img 
-                                    src="./assets/checkmark.png" 
-                                    alt="Experience Icon"
-                                    class="icon"
-                                />
-                                <div>
-                                    <h3>Express JS</h3>
+                                    <h3>Flask</h3>
                                     <p>Intermediate</p>
                                 </div>
                             </article>
@@ -244,7 +245,7 @@
                                 />
                                 <div>
                                     <h3>Git</h3>
-                                    <p>Basic</p>
+                                    <p>Experienced</p>
                                 </div>
                             </article>
                             <article>
@@ -254,8 +255,8 @@
                                     class="icon"
                                 />
                                 <div>
-                                    <h3>C</h3>
-                                    <p>Basic</p>
+                                    <h3>Linux</h3>
+                                    <p>Experienced</p>
                                 </div>
                             </article>
                             <article>
@@ -265,7 +266,18 @@
                                     class="icon"
                                 />
                                 <div>
-                                    <h3>Java</h3>
+                                    <h3>Terminal / SSH</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img 
+                                    src="./assets/checkmark.png" 
+                                    alt="Experience Icon"
+                                    class="icon"
+                                />
+                                <div>
+                                    <h3>Figma</h3>
                                     <p>Intermediate</p>
                                 </div>
                             </article>
@@ -281,7 +293,6 @@
             />
         </section>
         <section id="projects">
-            <!--CHANGE PROJECTS/LINKS-->
             <p class="section__text__p1">Browse My Recent</p>
             <h1 class="title">Projects</h1>
             <div class="experience-details-container">
@@ -290,23 +301,23 @@
                     <div class="article-container">
                         <img 
                             src="./assets/project-1.png" 
-                            alt="Project 1"
+                            alt="FitInNature web application screenshot"
                             class="project-img"
                         />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h2 class="experience-sub-title project-title">FitInNature</h2>
+                    <p class="project-desc">
+                        Co-developed a data-scraping web application to help people discover national parks, with
+                        React, Python, and SQL. Includes search and sorting, pagination, a RESTful API, nearby
+                        transportation suggestions, weather checks, user profiles, and saved events—supported by
+                        CI, unit tests, and documentation.
+                    </p>
                     <div class="btn-container">
                         <button 
                             class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/';"
+                            onclick="location.href='https://github.com/wuwilliam12';"
                         >
-                            Github
-                        </button>
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/';"
-                        >
-                            Live Demo
+                            GitHub
                         </button>
                     </div>
                     </div>
@@ -314,23 +325,22 @@
                     <div class="article-container">
                         <img 
                             src="./assets/project-2.png" 
-                            alt="Project 2"
+                            alt="Omnidirectional transport robot"
                             class="project-img"
                         />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <h2 class="experience-sub-title project-title">Omnidirectional transport robot</h2>
+                    <p class="project-desc">
+                        Led a team of three to design, build, and program an omnidirectional mobile robot as a
+                        proof of concept for warehouses and hospitals. Work included a load-bearing chassis
+                        (up to ~200 lb), a two-speed transmission, and manual driving software in C.
+                    </p>
                     <div class="btn-container">
                         <button 
                             class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/';"
+                            onclick="location.href='https://github.com/wuwilliam12';"
                         >
-                            Github
-                        </button>
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/';"
-                        >
-                            Live Demo
+                            GitHub
                         </button>
                     </div>
                     </div>
@@ -338,23 +348,21 @@
                     <div class="article-container">
                         <img 
                             src="./assets/project-3.png" 
-                            alt="Project 3"
+                            alt="Pintos operating system project"
                             class="project-img"
                         />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <h2 class="experience-sub-title project-title">Pintos</h2>
+                    <p class="project-desc">
+                        Extended a teaching operating system: shell, threads, user programs, virtual memory,
+                        system calls, and file systems, with synchronization using semaphores and locks.
+                    </p>
                     <div class="btn-container">
                         <button 
                             class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/';"
+                            onclick="location.href='https://www.cs.utexas.edu/~ans/classes/cs439/projects/pintos/WWW/pintos.html';"
                         >
-                            Github
-                        </button>
-                        <button 
-                            class="btn btn-color-2 project-btn" 
-                            onclick="location.href='https://github.com/';"
-                        >
-                            Live Demo
+                            Course info
                         </button>
                     </div>
                     </div>
@@ -364,7 +372,7 @@
                 src="./assets/arrow.png" 
                 alt="Arrow icon" 
                 class="icon arrow" 
-                onclick="location.href='./#projects'"
+                onclick="location.href='./#contact'"
             />
         </section>
         <section id="contact">
@@ -378,7 +386,7 @@
                         alt="Email Icon"
                         class="icon contact-icon email-icon"
                     />
-                    <p><a href="wuwil1216@gmail.com">wuwil1216@gmail.com</a></p>
+                    <p><a href="mailto:wuwil1216@gmail.com">wuwil1216@gmail.com</a></p>
                 </div>
                 <div class="contact-info-container">
                     <img
@@ -386,7 +394,15 @@
                         alt="LinkedIn Icon"
                         class="icon contact-icon"
                     />
-                    <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+                    <p><a href="https://www.linkedin.com/in/william-wu12">LinkedIn</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img
+                        src="./assets/email.png"
+                        alt="Phone Icon"
+                        class="icon contact-icon email-icon"
+                    />
+                    <p><a href="tel:+18323800682">832-380-0682</a></p>
                 </div>
             </div>
         </section>
@@ -396,7 +412,7 @@
                     <ul class="nav-links">
                         <li><a href="#about">About</a></li>
                         <li><a href="#experience">Experience</a></li>
-                        <li><a href="#projects">Project</a></li>
+                        <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>

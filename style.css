@@ -334,6 +334,34 @@ section {
     flex-direction: column;
 }
 
+.experience-work-summary {
+    text-align: left;
+    margin-bottom: 2rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience-work-summary .experience-sub-title {
+    text-align: center;
+}
+
+.experience-work-summary .job-meta {
+    color: rgb(85, 85, 85);
+    font-size: 0.95rem;
+    margin-bottom: 0.35rem;
+}
+
+.experience-work-summary ul {
+    color: rgb(85, 85, 85);
+    margin: 0.25rem 0 1.25rem 1.25rem;
+    padding-left: 0.5rem;
+}
+
+.experience-work-summary li {
+    margin-bottom: 0.35rem;
+}
+
 .article-container {
     display: flex;
     text-align: initial;
@@ -374,6 +402,14 @@ article .icon {
 .project-title {
     margin: 1rem;
     color: black;
+}
+
+.project-desc {
+    color: rgb(85, 85, 85);
+    font-size: 0.95rem;
+    margin: 0 1rem 1rem;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .project-btn {
